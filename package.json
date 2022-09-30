@@ -1,0 +1,14 @@
+{
+  "name": "Playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.26.1"
+  },
+  "scripts": {
+    "dev": "npx playwright test --debug",
+    "e2e": "npx playwright test",
+    "report": "npx playwright show-report"
+  }
+}
