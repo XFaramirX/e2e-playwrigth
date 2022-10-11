@@ -1,14 +1,16 @@
 {
-  "name": "Playwright",
+  "name": "playwright",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.26.1"
+    "@playwright/test": "1.20.2",
+    "playwright": "1.20.2"
   },
   "scripts": {
     "dev": "npx playwright test --debug",
     "e2e": "npx playwright test",
+    "codegen": "npx playwright codegen https://www.lambdatest.com/selenium-playground",
     "report": "npx playwright show-report"
   }
 }
